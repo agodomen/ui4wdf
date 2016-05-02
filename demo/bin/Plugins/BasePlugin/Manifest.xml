@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Bundle xmlns="urn:uiosp-bundle-manifest-2.0" Name="BasePlugin" SymbolicName="BasePlugin" Version="1.0.0.0" InitializedState="Active">
+  <Activator Type="BasePlugin.Activator" Policy="Immediate" />
+  <Runtime>
+    <Assembly Path="bin\BasePlugin.dll" Share="false" />
+  </Runtime>
+  <Extension Point="UIShell.WpfShellPlugin.LinkGroups">
+    <LinkGroup DisplayName="BasePlugin" DefaultContentSource="BasePlugin.UserControl1">
+      <Link DisplayName="UserControl1" Source="BasePlugin.UserControl1" />
+    </LinkGroup>
+    <LinkGroup DisplayName="MainMenu1" DefaultContentSource="BasePlugin.Menu1">
+      <Link DisplayName="menu1" Source="BasePlugin.Menu1" />
+    </LinkGroup>
+    <LinkGroup DisplayName="MainMenu2" DefaultContentSource="BasePlugin.Menu2">
+      <Link DisplayName="menu2" Source="BasePlugin.Menu2" />
+    </LinkGroup>
+  </Extension>
+</Bundle>

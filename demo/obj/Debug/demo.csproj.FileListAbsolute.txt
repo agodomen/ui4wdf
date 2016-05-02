@@ -1,0 +1,17 @@
+E:\System\Documents\Visual Studio 2015\Projects\Wdf4UI\demo\bin\demo.exe.config
+E:\System\Documents\Visual Studio 2015\Projects\Wdf4UI\demo\bin\demo.exe
+E:\System\Documents\Visual Studio 2015\Projects\Wdf4UI\demo\bin\demo.pdb
+E:\System\Documents\Visual Studio 2015\Projects\Wdf4UI\demo\bin\UIShell.iOpenWorks.Bootstrapper.dll
+E:\System\Documents\Visual Studio 2015\Projects\Wdf4UI\demo\bin\UIShell.iOpenWorks.BundleRepository.dll
+E:\System\Documents\Visual Studio 2015\Projects\Wdf4UI\demo\bin\UIShell.OSGi.dll
+E:\System\Documents\Visual Studio 2015\Projects\Wdf4UI\demo\bin\UIShell.PageFlowService.dll
+E:\System\Documents\Visual Studio 2015\Projects\Wdf4UI\demo\bin\UIShell.OSGi.xml
+E:\System\Documents\Visual Studio 2015\Projects\Wdf4UI\demo\obj\Debug\demo.csprojResolveAssemblyReference.cache
+E:\System\Documents\Visual Studio 2015\Projects\Wdf4UI\demo\obj\Debug\App.g.cs
+E:\System\Documents\Visual Studio 2015\Projects\Wdf4UI\demo\obj\Debug\demo_Content.g.cs
+E:\System\Documents\Visual Studio 2015\Projects\Wdf4UI\demo\obj\Debug\demo_MarkupCompile.cache
+E:\System\Documents\Visual Studio 2015\Projects\Wdf4UI\demo\obj\Debug\demo.g.resources
+E:\System\Documents\Visual Studio 2015\Projects\Wdf4UI\demo\obj\Debug\demo.Properties.Resources.resources
+E:\System\Documents\Visual Studio 2015\Projects\Wdf4UI\demo\obj\Debug\demo.csproj.GenerateResource.Cache
+E:\System\Documents\Visual Studio 2015\Projects\Wdf4UI\demo\obj\Debug\demo.exe
+E:\System\Documents\Visual Studio 2015\Projects\Wdf4UI\demo\obj\Debug\demo.pdb

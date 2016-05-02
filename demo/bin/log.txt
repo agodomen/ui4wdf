@@ -1,0 +1,201 @@
+Mon, 02 May 2016 16:43:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Warn|   The OSGi.NET global assembly feature is enabled. Thus, the duplicated assembly in local Assembly of Bundle will be replaced by the global assembly in 'bin' folder.
+Mon, 02 May 2016 16:43:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Warn|   The OSGi.NET enable the supporting for the assemblies with multiple versions. The assembly will be loaded by using Assembly.LoadFile.
+Mon, 02 May 2016 16:43:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Can not load assembly 'bin\BasePlugin.dll' for bundle 'BasePlugin, 1.0.0.0', Exception: 'Can not find the file 'bin\BasePlugin.dll' under the bundle path 'E:\System\Documents\Visual Studio 2015\Projects\Wdf4UI\demo\bin\Plugins\BasePlugin'.'.
+Mon, 02 May 2016 16:43:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Warn|   The local assembly 'UIShell.iOpenWorks.BundleRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261' of bundle 'UIShell.BundleManagementService, 1.0.0.8' is replaced by global assembly 'UIShell.iOpenWorks.BundleRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Mon, 02 May 2016 16:43:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Warn|   The local assembly 'UIShell.PageFlowService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261' of bundle 'UIShell.PageFlowService, 1.0.0.8' is replaced by global assembly 'UIShell.PageFlowService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Mon, 02 May 2016 16:43:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.OSGi.SystemBundle, 1.0.0.0' is starting.
+Mon, 02 May 2016 16:43:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.BundleManagementService, 1.0.0.8' is starting.
+Mon, 02 May 2016 16:43:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   The bundle 'BasePlugin, 1.0.0.0' can not be resolved since the local assembly 'bin\BasePlugin.dll' can not be loaded.
+Mon, 02 May 2016 16:43:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.BundleManagementService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Mon, 02 May 2016 16:43:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.OSGi.XmlSerializers, Version=1.2.2.5, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Mon, 02 May 2016 16:43:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.GeneratedCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Mon, 02 May 2016 16:43:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.BundleManagementService, 1.0.0.8' is in state 'Active'.
+Mon, 02 May 2016 16:43:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.PageFlowService, 1.0.0.8' is starting.
+Mon, 02 May 2016 16:43:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.PageFlowService, 1.0.0.8' is in state 'Active'.
+Mon, 02 May 2016 16:43:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WebServiceWrapperService, 1.0.0.0' is starting.
+Mon, 02 May 2016 16:43:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.WebServiceWrapperService, Version=1.2.2.5, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Mon, 02 May 2016 16:43:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Runtime.Remoting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Mon, 02 May 2016 16:43:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WebServiceWrapperService, 1.0.0.0' is in state 'Active'.
+Mon, 02 May 2016 16:43:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.RemotingManagement, 1.0.0.0' is starting.
+Mon, 02 May 2016 16:43:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.RemotingManagement, Version=1.2.2.5, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Mon, 02 May 2016 16:43:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Wrap service 'BundleManagement, 9090' for bundle 'UIShell.RemotingManagement, 1.0.0.0' failed.
+Mon, 02 May 2016 16:43:44 GMT|***|FrameworkThread|UIShell.OSGi.Logger|   |ErrorSystem.Net.Sockets.SocketException (0x80004005): Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Runtime.Remoting.Channels.Http.HttpServerChannel.StartListening(Object data)
+   at System.Runtime.Remoting.Channels.Http.HttpServerChannel.SetupChannel()
+   at System.Runtime.Remoting.Channels.Http.HttpServerChannel..ctor(String name, Int32 port)
+   at UIShell.WebServiceWrapperService.Impl.RemotingWebServiceWrapperService.WrapWebService(Int32 port, String name, Type type, WellKnownObjectMode deployMode)
+   at UIShell.WebServiceWrapperService.Activator.WrapWebService(List`1 webServiceDatas)
+Mon, 02 May 2016 16:43:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.RemotingManagement, 1.0.0.0' is in state 'Active'.
+Mon, 02 May 2016 16:43:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'BasePlugin, 1.0.0.0' is starting.
+Mon, 02 May 2016 16:43:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   The bundle 'BasePlugin, 1.0.0.0' can not be resolved since the local assembly 'bin\BasePlugin.dll' can not be loaded.
+Mon, 02 May 2016 16:43:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Start the bundle 'BasePlugin, 1.0.0.0' failed.
+Mon, 02 May 2016 16:43:44 GMT|***|FrameworkThread|UIShell.OSGi.Logger|   |ErrorUIShell.OSGi.BundleException: The bundle 'BasePlugin, 1.0.0.0' is started failed since it can not be resolved.
+   at UIShell.OSGi.Core.Bundle.HostBundle.DoStart(BundleStartOptions option)
+   at UIShell.OSGi.Core.Bundle.AbstractBundle.<>c__DisplayClass2.xM4U3mVtInGmMKqls4o(Object , BundleStartOptions option)
+   at UIShell.OSGi.Core.Bundle.AbstractBundle.<>c__DisplayClass2.<Start>b__1()
+   at UIShell.OSGi.Core.Bundle.AbstractBundle.ADZI6nttnFKk9G11eSs(Object )
+   at UIShell.OSGi.Core.Bundle.AbstractBundle.DoLifecycleAction(Action action, String actionName)
+   at UIShell.OSGi.Core.Bundle.AbstractBundle.Start(BundleStartOptions option)
+   at UIShell.OSGi.Core.Service.Impl.StartLevelManager.hoNLffn1XZcZxOtXKop(Object , BundleStartOptions option)
+   at UIShell.OSGi.Core.Service.Impl.StartLevelManager.ChangeStartLevel(Int32 startLevel)
+Mon, 02 May 2016 16:43:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfAppCenterPlugin, 1.0.0.8' is starting.
+Mon, 02 May 2016 16:43:44 GMT|***|EventDispatcherThread|UIShell.OSGi.Logger|   |ErrorUIShell.OSGi.BundleException: The bundle 'BasePlugin, 1.0.0.0' is started failed since it can not be resolved.
+   at UIShell.OSGi.Core.Bundle.HostBundle.DoStart(BundleStartOptions option)
+   at UIShell.OSGi.Core.Bundle.AbstractBundle.<>c__DisplayClass2.xM4U3mVtInGmMKqls4o(Object , BundleStartOptions option)
+   at UIShell.OSGi.Core.Bundle.AbstractBundle.<>c__DisplayClass2.<Start>b__1()
+   at UIShell.OSGi.Core.Bundle.AbstractBundle.ADZI6nttnFKk9G11eSs(Object )
+   at UIShell.OSGi.Core.Bundle.AbstractBundle.DoLifecycleAction(Action action, String actionName)
+   at UIShell.OSGi.Core.Bundle.AbstractBundle.Start(BundleStartOptions option)
+   at UIShell.OSGi.Core.Service.Impl.StartLevelManager.hoNLffn1XZcZxOtXKop(Object , BundleStartOptions option)
+   at UIShell.OSGi.Core.Service.Impl.StartLevelManager.ChangeStartLevel(Int32 startLevel)
+Mon, 02 May 2016 16:43:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.WpfAppCenterPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Mon, 02 May 2016 16:43:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'FirstFloor.ModernUI, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null'.
+Mon, 02 May 2016 16:43:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=en-US, PublicKeyToken=null'.
+Mon, 02 May 2016 16:43:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=en-US, PublicKeyToken=null'.
+Mon, 02 May 2016 16:43:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=en, PublicKeyToken=null'.
+Mon, 02 May 2016 16:43:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=en, PublicKeyToken=null'.
+Mon, 02 May 2016 16:43:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=en-US, PublicKeyToken=null'.
+Mon, 02 May 2016 16:43:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=en-US, PublicKeyToken=null'.
+Mon, 02 May 2016 16:43:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=en, PublicKeyToken=null'.
+Mon, 02 May 2016 16:43:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=en, PublicKeyToken=null'.
+Mon, 02 May 2016 16:43:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=en-US, PublicKeyToken=null'.
+Mon, 02 May 2016 16:43:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=en-US, PublicKeyToken=null'.
+Mon, 02 May 2016 16:43:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=en, PublicKeyToken=null'.
+Mon, 02 May 2016 16:43:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=en, PublicKeyToken=null'.
+Mon, 02 May 2016 16:43:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfAppCenterPlugin, 1.0.0.8' is in state 'Active'.
+Mon, 02 May 2016 16:43:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.OSGi.SystemBundle, 1.0.0.0' is in state 'Active'.
+Mon, 02 May 2016 16:43:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.Windows.Shell, Version=3.5.41019.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Mon, 02 May 2016 16:43:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfAppCenterPlugin.resources, Version=1.0.0.0, Culture=en-US, PublicKeyToken=null'.
+Mon, 02 May 2016 16:43:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfAppCenterPlugin.resources, Version=1.0.0.0, Culture=en-US, PublicKeyToken=null'.
+Mon, 02 May 2016 16:43:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfAppCenterPlugin.resources, Version=1.0.0.0, Culture=en, PublicKeyToken=null'.
+Mon, 02 May 2016 16:43:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfAppCenterPlugin.resources, Version=1.0.0.0, Culture=en, PublicKeyToken=null'.
+Mon, 02 May 2016 16:43:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'PresentationFramework.Aero2, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Mon, 02 May 2016 16:43:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'PresentationFramework-SystemXmlLinq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Mon, 02 May 2016 16:43:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'PresentationFramework-SystemXml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Mon, 02 May 2016 16:43:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIAutomationProvider, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Mon, 02 May 2016 16:43:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIAutomationTypes, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Mon, 02 May 2016 16:43:45 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'PresentationFramework-SystemData, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Mon, 02 May 2016 16:43:45 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Mon, 02 May 2016 16:43:46 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Windows.UI, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime'.
+Mon, 02 May 2016 16:43:46 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Runtime.InteropServices.WindowsRuntime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Mon, 02 May 2016 16:48:25 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.BundleManagementService.resources, Version=1.0.0.0, Culture=en-US, PublicKeyToken=c86472448ee87261'.
+Mon, 02 May 2016 16:48:25 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.BundleManagementService.resources, Version=1.0.0.0, Culture=en-US, PublicKeyToken=c86472448ee87261'.
+Mon, 02 May 2016 16:48:25 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.BundleManagementService.resources, Version=1.0.0.0, Culture=en, PublicKeyToken=c86472448ee87261'.
+Mon, 02 May 2016 16:48:25 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.BundleManagementService.resources, Version=1.0.0.0, Culture=en, PublicKeyToken=c86472448ee87261'.
+Mon, 02 May 2016 16:48:34 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'ICSharpCode.SharpZipLib, Version=0.85.5.452, Culture=neutral, PublicKeyToken=1b03e6acf1164f73'.
+Mon, 02 May 2016 16:48:34 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfShellPlugin, 1.0.0.7' is starting.
+Mon, 02 May 2016 16:48:34 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   The bundle 'BasePlugin, 1.0.0.0' can not be resolved since the local assembly 'bin\BasePlugin.dll' can not be loaded.
+Mon, 02 May 2016 16:48:34 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.WpfShellPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Mon, 02 May 2016 16:48:34 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfShellPlugin, 1.0.0.7' is in state 'Active'.
+Mon, 02 May 2016 16:48:37 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Mon, 02 May 2016 16:48:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'BasePlugin, 1.0.0.0' is stopping.
+Mon, 02 May 2016 16:48:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'BasePlugin, 1.0.0.0' is in state 'Installed'.
+Mon, 02 May 2016 16:48:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfAppCenterPlugin, 1.0.0.8' is stopping.
+Mon, 02 May 2016 16:48:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfAppCenterPlugin, 1.0.0.8' is in state 'Resolved'.
+Mon, 02 May 2016 16:48:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.RemotingManagement, 1.0.0.0' is stopping.
+Mon, 02 May 2016 16:48:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.RemotingManagement, 1.0.0.0' is in state 'Resolved'.
+Mon, 02 May 2016 16:48:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.BundleManagementService, 1.0.0.8' is stopping.
+Mon, 02 May 2016 16:48:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.BundleManagementService, 1.0.0.8' is in state 'Resolved'.
+Mon, 02 May 2016 16:48:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.PageFlowService, 1.0.0.8' is stopping.
+Mon, 02 May 2016 16:48:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.PageFlowService, 1.0.0.8' is in state 'Resolved'.
+Mon, 02 May 2016 16:48:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WebServiceWrapperService, 1.0.0.0' is stopping.
+Mon, 02 May 2016 16:48:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WebServiceWrapperService, 1.0.0.0' is in state 'Resolved'.
+Mon, 02 May 2016 16:48:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfShellPlugin, 1.0.0.7' is stopping.
+Mon, 02 May 2016 16:48:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfShellPlugin, 1.0.0.7' is in state 'Resolved'.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Warn|   The OSGi.NET global assembly feature is enabled. Thus, the duplicated assembly in local Assembly of Bundle will be replaced by the global assembly in 'bin' folder.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Warn|   The OSGi.NET enable the supporting for the assemblies with multiple versions. The assembly will be loaded by using Assembly.LoadFile.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Can not load assembly 'bin\BasePlugin.dll' for bundle 'BasePlugin, 1.0.0.0', Exception: 'Can not find the file 'bin\BasePlugin.dll' under the bundle path 'E:\System\Documents\Visual Studio 2015\Projects\Wdf4UI\demo\bin\Plugins\BasePlugin'.'.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Warn|   The local assembly 'UIShell.iOpenWorks.BundleRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261' of bundle 'UIShell.BundleManagementService, 1.0.0.8' is replaced by global assembly 'UIShell.iOpenWorks.BundleRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Warn|   The local assembly 'UIShell.PageFlowService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261' of bundle 'UIShell.PageFlowService, 1.0.0.8' is replaced by global assembly 'UIShell.PageFlowService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.OSGi.SystemBundle, 1.0.0.0' is starting.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.OSGi.XmlSerializers, Version=1.2.2.5, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.GeneratedCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.BundleManagementService, 1.0.0.8' is starting.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   The bundle 'BasePlugin, 1.0.0.0' can not be resolved since the local assembly 'bin\BasePlugin.dll' can not be loaded.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.BundleManagementService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.BundleManagementService, 1.0.0.8' is in state 'Active'.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.PageFlowService, 1.0.0.8' is starting.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.PageFlowService, 1.0.0.8' is in state 'Active'.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfShellPlugin, 1.0.0.7' is starting.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.WpfShellPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfAppCenterPlugin, 1.0.0.8' is starting.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.WpfAppCenterPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'FirstFloor.ModernUI, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null'.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=en-US, PublicKeyToken=null'.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=en-US, PublicKeyToken=null'.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=en, PublicKeyToken=null'.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=en, PublicKeyToken=null'.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=en-US, PublicKeyToken=null'.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=en-US, PublicKeyToken=null'.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=en, PublicKeyToken=null'.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=en, PublicKeyToken=null'.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=en-US, PublicKeyToken=null'.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=en-US, PublicKeyToken=null'.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=en, PublicKeyToken=null'.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=en, PublicKeyToken=null'.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfAppCenterPlugin, 1.0.0.8' is in state 'Active'.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfShellPlugin, 1.0.0.7' is in state 'Active'.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WebServiceWrapperService, 1.0.0.0' is starting.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.WebServiceWrapperService, Version=1.2.2.5, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Runtime.Remoting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WebServiceWrapperService, 1.0.0.0' is in state 'Active'.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.RemotingManagement, 1.0.0.0' is starting.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.RemotingManagement, Version=1.2.2.5, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.RemotingManagement, 1.0.0.0' is in state 'Active'.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'BasePlugin, 1.0.0.0' is starting.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   The bundle 'BasePlugin, 1.0.0.0' can not be resolved since the local assembly 'bin\BasePlugin.dll' can not be loaded.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Start the bundle 'BasePlugin, 1.0.0.0' failed.
+Mon, 02 May 2016 16:48:52 GMT|***|FrameworkThread|UIShell.OSGi.Logger|   |ErrorUIShell.OSGi.BundleException: The bundle 'BasePlugin, 1.0.0.0' is started failed since it can not be resolved.
+   at UIShell.OSGi.Core.Bundle.HostBundle.DoStart(BundleStartOptions option)
+   at UIShell.OSGi.Core.Bundle.AbstractBundle.<>c__DisplayClass2.xM4U3mVtInGmMKqls4o(Object , BundleStartOptions option)
+   at UIShell.OSGi.Core.Bundle.AbstractBundle.<>c__DisplayClass2.<Start>b__1()
+   at UIShell.OSGi.Core.Bundle.AbstractBundle.ADZI6nttnFKk9G11eSs(Object )
+   at UIShell.OSGi.Core.Bundle.AbstractBundle.DoLifecycleAction(Action action, String actionName)
+   at UIShell.OSGi.Core.Bundle.AbstractBundle.Start(BundleStartOptions option)
+   at UIShell.OSGi.Core.Service.Impl.StartLevelManager.hoNLffn1XZcZxOtXKop(Object , BundleStartOptions option)
+   at UIShell.OSGi.Core.Service.Impl.StartLevelManager.ChangeStartLevel(Int32 startLevel)
+Mon, 02 May 2016 16:48:52 GMT|***|EventDispatcherThread|UIShell.OSGi.Logger|   |ErrorUIShell.OSGi.BundleException: The bundle 'BasePlugin, 1.0.0.0' is started failed since it can not be resolved.
+   at UIShell.OSGi.Core.Bundle.HostBundle.DoStart(BundleStartOptions option)
+   at UIShell.OSGi.Core.Bundle.AbstractBundle.<>c__DisplayClass2.xM4U3mVtInGmMKqls4o(Object , BundleStartOptions option)
+   at UIShell.OSGi.Core.Bundle.AbstractBundle.<>c__DisplayClass2.<Start>b__1()
+   at UIShell.OSGi.Core.Bundle.AbstractBundle.ADZI6nttnFKk9G11eSs(Object )
+   at UIShell.OSGi.Core.Bundle.AbstractBundle.DoLifecycleAction(Action action, String actionName)
+   at UIShell.OSGi.Core.Bundle.AbstractBundle.Start(BundleStartOptions option)
+   at UIShell.OSGi.Core.Service.Impl.StartLevelManager.hoNLffn1XZcZxOtXKop(Object , BundleStartOptions option)
+   at UIShell.OSGi.Core.Service.Impl.StartLevelManager.ChangeStartLevel(Int32 startLevel)
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfAppCenterPlugin, 1.0.0.8' is starting.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfAppCenterPlugin, 1.0.0.8' is in state 'Active'.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.OSGi.SystemBundle, 1.0.0.0' is in state 'Active'.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.Windows.Shell, Version=3.5.41019.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfShellPlugin.resources, Version=1.0.0.0, Culture=en-US, PublicKeyToken=null'.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfShellPlugin.resources, Version=1.0.0.0, Culture=en-US, PublicKeyToken=null'.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfShellPlugin.resources, Version=1.0.0.0, Culture=en, PublicKeyToken=null'.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfShellPlugin.resources, Version=1.0.0.0, Culture=en, PublicKeyToken=null'.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'PresentationFramework.Aero2, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'PresentationFramework-SystemXml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Mon, 02 May 2016 16:48:52 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIAutomationTypes, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Mon, 02 May 2016 16:48:53 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIAutomationProvider, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Mon, 02 May 2016 16:48:53 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'PresentationFramework-SystemData, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Mon, 02 May 2016 16:48:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Windows.UI, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime'.
+Mon, 02 May 2016 16:48:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Runtime.InteropServices.WindowsRuntime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Mon, 02 May 2016 16:49:10 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfAppCenterPlugin.resources, Version=1.0.0.0, Culture=en-US, PublicKeyToken=null'.
+Mon, 02 May 2016 16:49:10 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfAppCenterPlugin.resources, Version=1.0.0.0, Culture=en-US, PublicKeyToken=null'.
+Mon, 02 May 2016 16:49:10 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfAppCenterPlugin.resources, Version=1.0.0.0, Culture=en, PublicKeyToken=null'.
+Mon, 02 May 2016 16:49:10 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfAppCenterPlugin.resources, Version=1.0.0.0, Culture=en, PublicKeyToken=null'.
+Mon, 02 May 2016 16:49:10 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'PresentationFramework-SystemXmlLinq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Mon, 02 May 2016 16:49:10 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Mon, 02 May 2016 16:49:16 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Mon, 02 May 2016 16:49:24 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'BasePlugin, 1.0.0.0' is stopping.
+Mon, 02 May 2016 16:49:24 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'BasePlugin, 1.0.0.0' is in state 'Installed'.
+Mon, 02 May 2016 16:49:24 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfAppCenterPlugin, 1.0.0.8' is stopping.
+Mon, 02 May 2016 16:49:24 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfAppCenterPlugin, 1.0.0.8' is in state 'Resolved'.
+Mon, 02 May 2016 16:49:24 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.RemotingManagement, 1.0.0.0' is stopping.
+Mon, 02 May 2016 16:49:24 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.RemotingManagement, 1.0.0.0' is in state 'Resolved'.
+Mon, 02 May 2016 16:49:24 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.BundleManagementService, 1.0.0.8' is stopping.
+Mon, 02 May 2016 16:49:24 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.BundleManagementService, 1.0.0.8' is in state 'Resolved'.
+Mon, 02 May 2016 16:49:24 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.PageFlowService, 1.0.0.8' is stopping.
+Mon, 02 May 2016 16:49:24 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.PageFlowService, 1.0.0.8' is in state 'Resolved'.
+Mon, 02 May 2016 16:49:24 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfShellPlugin, 1.0.0.7' is stopping.
+Mon, 02 May 2016 16:49:24 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfShellPlugin, 1.0.0.7' is in state 'Resolved'.
+Mon, 02 May 2016 16:49:24 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WebServiceWrapperService, 1.0.0.0' is stopping.
+Mon, 02 May 2016 16:49:24 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WebServiceWrapperService, 1.0.0.0' is in state 'Resolved'.
